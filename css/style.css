@@ -7,6 +7,10 @@ a {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -27,8 +31,8 @@ img {
 .header {
   width: 100%;
   height: 100vh;
-  background-color: #657A96;
-  background-image: url("./../img/header/header-bg5.jpg");
+  /* background-color: #657A96;
+  background-image: url("./../img/header/header-bg5.jpg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,9 +116,9 @@ img {
   transition: 0.2s ease-in;
 }
 
-.card:last-child, .card:nth-last-child(2) {
+/* .card:last-child, .card:nth-last-child(2) {
   margin-bottom: 0;
-}
+} */
 
 .card-img {
   margin-bottom: 20px;
